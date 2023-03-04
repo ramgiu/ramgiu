@@ -267,7 +267,7 @@
 
 
 /* mobiles */
-@media only screen and (max-width:700px) {
+@media only screen and (max-width:600px) {
 
 	/* content styles */
 	#content { padding-top: 48px;	}
@@ -285,8 +285,7 @@
 	}
 
 	/* hero section */
-	#hero { padding-bottom: 66px;
-	background-size: cover !important;	}
+	#hero { padding-bottom: 66px;	}
 
 	/* service section */
 	.service-list .bgrid {
