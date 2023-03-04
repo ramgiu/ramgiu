@@ -1284,7 +1284,7 @@ hr {
 	background-size: cover !important;
 	padding-top: 66px;
 	padding-bottom: 90px;
-	width: 100vw;
+	width: 100%;
 	text-align: center;
 	position: relative;
 }

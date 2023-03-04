@@ -285,7 +285,8 @@
 	}
 
 	/* hero section */
-	#hero { padding-bottom: 66px;	}
+	#hero { padding-bottom: 66px;
+	background-size: cover !important;	}
 
 	/* service section */
 	.service-list .bgrid {
