@@ -1281,7 +1281,7 @@ hr {
 	background: #12151b url(../images/hero-bg.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover !important;
 	-moz-background-size: cover !important;
-	background-size: cover !important;
+	/*background-size: cover !important;*/
 	padding-top: 66px;
 	padding-bottom: 90px;
 	width: 100%;
