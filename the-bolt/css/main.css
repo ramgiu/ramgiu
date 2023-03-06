@@ -828,11 +828,9 @@ header .logo a {
 	height: 38px;
 	background-repeat: no-repeat;
 	background-position: 0 0;
-	background-image: url("../images/logo.svg");
 }
 @media (-webkit-min-device-pixel-ratio:2), (min-resolution:192dpi) {
 	header .logo a {
-		background-image: url("../images/logo.svg");
 		-webkit-background-size: 126px 12px;
 		-moz-background-size: 126px 12px;
 		background-size: 126px 12px;
@@ -2007,3 +2005,17 @@ hr {
 .white-text {
 	color: white !important;
 }
+
+.logo-nuevo {
+	position: absolute;
+	  top: 50%;
+	  left: 50%;
+	  transform: translate(-50%, -50%);
+	  display: block;
+	}
+.logo {
+		width: 250px;
+		height: 60px;
+		position: relative;
+	
+	}

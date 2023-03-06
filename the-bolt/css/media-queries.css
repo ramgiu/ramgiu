@@ -46,7 +46,7 @@
    /* header styles */
 	header {	background: #12151b;	}
 	header {	height: 60px; }
-	header .logo {	margin: 24px 0 0 0; }
+	/* header .logo {	margin: 24px 0 0 0; } */
 	header .logo a { margin-right: 0; }
 	
 	/* mobile navigation */
@@ -61,7 +61,7 @@
 		right: 0;
 	}
 	#nav-wrap > a {
-		background: #4b52db;
+		background: #3d2ede;
 		border: none;
 		color: white;
 		height: 60px;
@@ -144,7 +144,7 @@
 	}
 	#nav-wrap ul#nav li.current > a {
 		background: none;
-		color: #4b52db;
+		color: #3d2ede;
 	}
 	.js #nav-wrap a.mobile-btn {
 		display: none;
