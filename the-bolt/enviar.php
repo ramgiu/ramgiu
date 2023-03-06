@@ -1,6 +1,4 @@
 <?php
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-  // Obtener los valores del formulario
   $name = $_POST["contactFname"];
   $lname = $_POST["contactLname"]
   $email = $_POST["contactEmail"];
@@ -13,10 +11,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $body = "Nombre: $name\nEmail: $email\nMensaje: $message";
 
   // Enviar el correo electrónico
-  if (mail($to, $subject, $body)) {
-    echo "El mensaje se ha enviado correctamente.";
-  } else {
-    echo "Hubo un error al enviar el mensaje.";
-  }
-}
+  mail($to, $subject, $body)
 ?>
