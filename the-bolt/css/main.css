@@ -2006,7 +2006,7 @@ hr {
 	color: white !important;
 }
 
-.logo-nuevo {
+/* .logo-nuevo {
 	position: absolute;
 	  top: 50%;
 	  left: 50%;
@@ -2018,4 +2018,41 @@ hr {
 		height: 60px;
 		position: relative;
 	
-	}
+	} */
+
+
+
+	.logo {
+		padding: 10%;
+		position: relative;
+	  }
+
+	  .logo-nuevo {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto;
+	  }
+
+	  .logo-nuevo {
+		max-width: 65%;
+		max-height: 65%;
+	  }
+
+	  .logo-nuevo {
+		display: block;
+	  }
+
+	  .logo-nuevo {
+		display: block;
+		margin-top: auto;
+		margin-bottom: auto;
+	  }
+
+	  .logo {
+		height: 60px; /* establece una altura específica */
+		padding: 10%;
+		position: relative;
+	  }
