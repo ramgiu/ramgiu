@@ -6,7 +6,7 @@
   $message = $_POST["contactMessage"];
 
   // Construir el mensaje del correo electrónico
-  $to = "ramiro.giunta@gmail.com";
+  $to = "rami_200_2@hotmail.com";
   $subject = "Nuevo mensaje del formulario";
   $body = "Nombre: $name\nApellido: $lname\nEmail: $email\nAsunto: $csubject\nMensaje: $message";
 
